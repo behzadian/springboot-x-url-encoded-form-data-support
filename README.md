@@ -6,7 +6,7 @@ Here, I just developed a simple library to add support for this type of providin
 
 ## What is X-url-encoded-form-data?
 There are several standards to send information from browser to server.
-When browser uploads request to the server, specifies type of request in `Content-Type` header. Some of common content-types are:
+When browser uploads request to the server, specifies type of request in `Content-Type` header. Some common content-types are:
 - Application/JSON
 - Application/XML
 - multipart/form-data
@@ -19,7 +19,7 @@ For example if you have an input named `name` in your html form that filled with
 
 ```name=My%20Name```
 
-And if there is another input with the name `job` filled with value `C# Developer`, below text will be sent as body of request
+If there is another input with the name `job` filled with value `C# Developer`, below text will be sent as body of request
 
 ```name=My%20Name&job=C%23%20Developer```
 
@@ -27,12 +27,23 @@ And if there is another input with the name `job` filled with value `C# Develope
 Only you need to add below dependency:
 ```
 <dependency>
-    <groupId>behzadian.java.springboot.springboot-x-url-encoded-form-data-support</groupId>
+    <groupId>com.github.behzadian.springboot-x-url-encoded-form-data-support</groupId>
     <artifactId>form-post-param-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
-    <scope>compile</scope>
+    <version>v1.1</version>
 </dependency>
 ```
+
+Also, you need to add jitpack as package repository source:
+
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
 Then annotate every parameter you need to pass using x-url-encoded-form-data with `@FormPostParam("name of parameter")`
 
 It is good idea to annotate RESTful method with consume type like below (but not necessarily):

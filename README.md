@@ -29,7 +29,7 @@ Only you need to add below dependency:
 <dependency>
     <groupId>com.github.behzadian.springboot-x-url-encoded-form-data-support</groupId>
     <artifactId>form-post-param-spring-boot-starter</artifactId>
-    <version>v1.1</version>
+    <version>1.2.1</version>
 </dependency>
 ```
 

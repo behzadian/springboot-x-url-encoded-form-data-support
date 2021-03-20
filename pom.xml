@@ -9,11 +9,11 @@
     </parent>
     <groupId>behzadian.java.springboot.form-data-support</groupId>
     <artifactId>container</artifactId>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>lib</module>
+        <module>form-post-param-spring-boot-starter</module>
         <module>example</module>
     </modules>
 </project>

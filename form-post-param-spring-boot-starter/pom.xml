@@ -4,11 +4,11 @@
     <parent>
         <groupId>behzadian.java.springboot.form-data-support</groupId>
         <artifactId>container</artifactId>
-        <version>1.0.0</version>
+        <version>1.2.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>form-post-param-spring-boot-starter</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <name>lib</name>
 
     <properties>

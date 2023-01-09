@@ -1,8 +1,8 @@
 # springboot-x-url-encoded-form-data-support
 
-Springboot supports path parameters, but does not support for parameters sent with x-url-encoded-dorm-data
+Springboot supports path parameters, but does not support for parameters sent with x-url-encoded-form-data
 
-Here, I just developed a simple library to add support for this type of providing values
+Here, I developed a simple library to add support for this type of providing values
 
 ## What is X-url-encoded-form-data?
 There are several standards to send information from browser to server.
